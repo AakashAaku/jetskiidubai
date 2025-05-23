@@ -38,7 +38,7 @@ const Footer = () => {
            <div className="footerCard flex">
                 <div className="footerIntro flex">
                    <div className="logoDiv">
-                       <a href="#" className='logo flex'>
+                       <a href="#!" onClick={(e) => e.preventDefault()} className='logo flex'>
                           <MdOutlineTravelExplore className='icon' />
                           JetSki
                        </a>

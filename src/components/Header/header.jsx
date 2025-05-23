@@ -20,7 +20,7 @@ const Header = () => {
     <section className='navBarSection'>
       <header className="header flex">
          <div className="logoDiv">
-            <a href="#" className="logo flex">
+            <a href="#!" onClick={(e) => e.preventDefault()} className="logo flex">
                 <h1>
                     <MdOutlineTravelExplore className='icon' /> JETSKI
                 </h1>
@@ -30,28 +30,28 @@ const Header = () => {
          <div className={active}>
             <ul className="navLists flex">
                 <li className="navItem">
-                    <a href="#" className="navLink">Home</a>
+                    <a href="#!" onClick={(e) => e.preventDefault()} className="navLink">Home</a>
                 </li>
                 <li className="navItem">
-                    <a href="#" className="navLink">Packages</a>
+                    <a href="#!" onClick={(e) => e.preventDefault()} className="navLink">Packages</a>
                 </li>
                 <li className="navItem">
-                    <a href="#" className="navLink">Shop</a>
+                    <a href="#!" onClick={(e) => e.preventDefault()} className="navLink">Shop</a>
                 </li>
                 <li className="navItem">
-                    <a href="#" className="navLink">About</a>
+                    <a href="#!" onClick={(e) => e.preventDefault()} className="navLink">About</a>
                 </li>
                 <li className="navItem">
-                    <a href="#" className="navLink">Pages</a>
+                    <a href="#!" onClick={(e) => e.preventDefault()} className="navLink">Pages</a>
                 </li>
                 <li className="navItem">
-                    <a href="#" className="navLink">News</a>
+                    <a href="#!" onClick={(e) => e.preventDefault()} className="navLink">News</a>
                 </li>
                 <li className="navItem">
-                    <a href="#" className="navLink">Contact</a>
+                    <a href="#!" onClick={(e) => e.preventDefault()} className="navLink">Contact</a>
                 </li>
                 <button className='btn'>
-                    <a href="#">BOOK NOW</a>
+                    <a href="#!" onClick={(e) => e.preventDefault()}>BOOK NOW</a>
                 </button>
             </ul>
             <div onClick={removeNavbar} className="closeNavBar">
